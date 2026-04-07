@@ -1,0 +1,12 @@
+CREATE DATABASE ucict;
+
+USE ucict;
+
+CREATE TABLE registration (
+    idnum VARCHAR(20) PRIMARY KEY,
+    campus VARCHAR(50),
+    studFName VARCHAR(50),
+    studLName VARCHAR(50),
+    amountPaid DOUBLE,
+    attended VARCHAR(5) DEFAULT 'No'
+);
